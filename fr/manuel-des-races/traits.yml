@@ -1,0 +1,49 @@
+prototype: trait
+---
+-
+  name: Instruit
+  category: racial
+  constraints: { race: halfelin }
+  description: >
+    Le halfelin peut lire des bribes de la plupart des langues et en sait suffisament pour bien devinier le reste.
+    [[Linguistique]] est une compétence de classe pour lui et il gagne un bonus de trait de +1 à ses tests de Linguistique quand il cherche à déchiffrer un texte écrit dans une langue qui lui est inconnue.
+    Il ne tire jamais de conclusions erronées s'il rate son test : au lieu de cela, il réalise simplement qu'il ne comprend pas le texte.
+-
+  name: Parfait serviteur
+  category: racial
+  constraints: { race: halfelin }
+  description: >
+    La formation de domestique ou de valet du halfelin l'a inconsciemment marqué et son attitude semble mettre les gens de la haute société à l'aise.
+    Il gagne un bonus de trait de +3 à ses tests de [[Displomatie]] pour influencer quiconque a au mois un niveau d'[[aristocrate]].
+-
+  name: Passager providentiel
+  category: racial
+  constraints: { race: halfelin }
+  description: >
+    Ceux qui voyagent pour vivre comprennent que la simple présence du halfelin pourrait faire toute la différence entre l'échec et la réussite de l'expédition.
+    Ceci lui donne un avantage pour marchander sa place ou négocier df'autres privilèges.
+    Il améliore l'attitude de départ des capitaines de navire, des chefs de caravane et de tous ceux ayant le même type de responsabilités d'une catégorie à son égard.
+-
+  name: Pique-assiette
+  category: racial
+  constraints: { race: halfelin }
+  description: >
+    Ce que les autres pourraient appeler de la camelote, le halfelin l’appelle une affaire.
+    Il peut acheter des objets brisés à moitié prix (plutôt qu’aux trois-quarts de leur prix).
+    La valeur des versions brisées de ces objets ne peut pas excéder quatre fois le niveau de personnage du halfelin.
+    Le prix qu’il paie pour l’objet ne peut jamais dépasser plus de deux fois son niveau de personnage en po (par exemple, au niveau 5, le halfelin peut dépenser jusqu’à 10 po pour un objet brisé, ce qui signifie qu’il peut acheter n’importe quel objet qui, s’il n’est pas brisé, a une valeur de 20 po ou moins).
+-
+  name: Serviable
+  category: racial
+  constraints: { race: halfelin }
+  description: >
+    Le halfelin ne voit aucun mal à laisser les autres atteindre la réussite du moment qu’ils font leur travail.
+    Lorsqu’il parvient à apporter son aide à l’action d’un autre, il accorde à son allié un bonus de +4 plutôt que le bonus normal de +2.
+-
+  name: Bricoleur d'Isger
+  category: regional
+  constraints: { race: halfelin, region: Isger }
+  description: >
+    Tout le monde en Isger sait comment se débrouiller avec de l’équipement défectueux et le personnage peut improviser avec des outils et divers matériaux pour maintenir un peu plus longtemps un objet endommagé en état de marche.
+    Une fois par jour, il peut bricoler un objet brisé pour permettre à quiconque l’utilise d’ignorer les malus qu’impose son état brisé pendant 24 heures (ceci n’affecte pas les points de vie de l’objet).
+    Passé ce temps, l’objet retrouve son état brisé (mais le personnage peut réutiliser ce trait sur lui, encore et encore).
