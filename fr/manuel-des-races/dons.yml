@@ -1,0 +1,11 @@
+prototype: don
+---
+-
+  name: Traits de caractère supplémentaires
+  summary: Le personnage possède davantage de traits de caractère.
+  page: 27
+  benefit: >
+    Le personnage choisit deux traits de caractère supplémentaires.
+    Ces traits peuvent être extraits de catégories diverses, mais pas de celles dont le personnage possède déjà des traits.
+    Le personnage doit satisfaire aux conditions supplémentaires exigées par les traits qu’il choisit.
+    Par exemple, ce don ne lui permet pas de choisir un trait elfe s’il est nain.

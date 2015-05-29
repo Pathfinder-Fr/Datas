@@ -1,0 +1,12 @@
+prototype: weaponenchant
+---
+-
+  name: Flèches de rafale
+  aura: Transmutation faible
+  spellcasterlevel: 5
+  cost: 1
+  fabrication:
+    - créations d’armes et armures magiques
+    - arme magique
+  page: 35
+  

@@ -1,0 +1,17 @@
+prototype: region
+---
+-
+  name: Kyonin
+  government: Monarchie dirigée par la reine Télandia Édasséril, la couronne Verte.
+  page: 29
+  climate: >
+    Une majorité de forêts tempérées, avec quelques collines et montagnes aux températures tièdes et tempérées au sud.
+    Le point d’altitude le plus haut du Kyonin se situe à l’Appel de la foudre, le sommet d’une des montagnes des Cinq Rois, à 566 mètres au-dessus du niveau de la mer.
+    Le point le plus bas s’élève à 11 mètres, là où l’Endowhar, la rivière qui alimente Iadara, se déverse dans le territoire des Royaumes fluviaux.
+  capital: { name: Iadara, population: 56340 }
+  cities:
+    - { name: Orvert, population: 10400 }
+  language: Elfique
+  religions: [ Calistria, Desna, Findeladlara, Kétéphys, Néthys, Yuelral ]
+  imports: pierres précieuses, argent, mithral
+  exports: magie, produits de luxe, vins.
