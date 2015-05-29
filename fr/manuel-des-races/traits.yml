@@ -1,4 +1,4 @@
-prototype: trait
+﻿prototype: trait
 ---
 -
   name: Instruit
@@ -47,3 +47,124 @@ prototype: trait
     Tout le monde en Isger sait comment se débrouiller avec de l’équipement défectueux et le personnage peut improviser avec des outils et divers matériaux pour maintenir un peu plus longtemps un objet endommagé en état de marche.
     Une fois par jour, il peut bricoler un objet brisé pour permettre à quiconque l’utilise d’ignorer les malus qu’impose son état brisé pendant 24 heures (ceci n’affecte pas les points de vie de l’objet).
     Passé ce temps, l’objet retrouve son état brisé (mais le personnage peut réutiliser ce trait sur lui, encore et encore).
+-
+  name: Danseur du crépuscule
+  category: regional
+  constraints: { race: halfelin, region: Nidal }
+  description: >
+    Le personnage a grandi dans les sombres recoins du Nidal, ce qui lui a donné le courage nécessaire pour éviter les dangers à peine visibles.
+    Il gagne un bonus de trait de +2 à ses jets de Réflexes à faible luminosité ou dans les ténèbres.
+-
+  name: Égalité pour tous
+  category: regional
+  constraints: { race: halfelin, region: Andoran }
+  description: >
+    Même face à des ennemis bien plus grands que lui, le personnage incarne toujours la liberté andorane.
+    Il gagne un bonus de trait de +2 au BMO et au DMD lorsqu’il est face à des adversaires qui sont plus grands que lui d’au moins deux catégories de taille.
+- 
+  name: Esclave maladroit
+  category: regional
+  constraints: { race: halfelin, region: [ Chéliax, Katapesh ] }
+  description: >
+    En tant qu’ancien esclave, le personnage a appris à dissimuler sa malice à l’égard de son propriétaire derrière une façade de maladresse.
+    La première fois qu’il s’en prend à quelqu’un avec une attaque infligeant des dégâts non létaux, la cible doit faire un test de Psychologie opposé au test de Bluff du personnage moins les dégâts infligés pour réaliser que le personnage avait vraiment l’intention de lui faire mal ; en cas d’échec, la cible pense que la blessure n’est que le résultat d’un accident (mais elle peut quand même éprouver le désir de le punir pour cela).
+- 
+  name: Faste et apparat
+  category: regional
+  constraints: { race: halfelin, region: Taldor }
+  description: >
+    Bien que les autres pensent que le personnage perd son temps, celui-ci sait que ses touches cérémonieuses et théâtrales améliorent grandement son travail.
+    Il gagne un bonus de trait de +1 à ses tests d’Acrobaties, de Diplomatie, de Dressage, d’Intimidation, de Représentation et d’Équitation, sous réserve qu’elles soient des compétences de classe, s’il prend deux fois plus de temps que la normale pour faire le test.
+- 
+  name: Libération légaliste
+  category: regional
+  constraints: { race: halfelin, region: [ Molthune, Osirion ] }
+  description: >
+    Le personnage a suivi (ou exploité, selon certains) les règles et gagné sa liberté en trouvant les failles des lois labyrinthiques de sa patrie qui concernent l’esclavage et les contrats de servitude.
+    Il gagne un bonus de +1 à tous ses tests de Connaissances pour trouver un moyen légal d’éviter, d’annuler ou d’échapper à une obligation existante.
+- 
+  name: Petit appétit
+  category: regional
+  constraints: { race: halfelin, region: [ Osirion, Varésie ] }
+  description: >
+    À vivre dans une grande ville, le personnage a appris les conséquences de l’orgueil.
+    Désormais, il n’a plus aucun scrupule à insister sur le fait que son entretien ne coûterait pratiquement rien à un potentiel employeur, geôlier ou aubergiste, ou pour quiconque capable de subvenir à ses besoins.
+    Il gagne un bonus de trait de +3 à ses tests de Bluff pour obtenir de la nourriture, de l’eau ou un abri.
+- 
+  name: Rebelle du peuple
+  category: regional
+  constraints: { race: halfelin, region: Galt }
+  description: >
+    Le temps que le personnage a passé au milieu des foules en colère lui a appris comment les utiliser pour distraire ses adversaires.
+    S’il a au moins trois alliés menaçant son ennemi, le personnage gagne un bonus de +2 à ses tests de Bluff pour feinter celui-ci et un bonus de +2 à ses tests d’Escamotage contre lui.
+-
+  name: Abnégation
+  category: religious
+  constraints: { race: halfelin, religion: Shélyn }
+  description: >
+    Le personnage honore sa déesse à travers sa bonne volonté à prendre des risques pour ceux auxquels il tient.
+    Par une action de mouvement, il peut utiliser son propre corps pour offrir un abri partiel (voir la page 196 du Manuel des joueurs) à un allié adjacent, quelle que soit leur différence de taille.
+-
+  name: Appel à l’aide
+  category: religious
+  constraints: { race: halfelin, religion: 'Chaldira Zuzaristan' }
+  description: >
+    Le personnage ayant consacré sa foi et modelé sa vie en fonction de l’impétueuse compagne de Desna, il se retrouve souvent dans le pétrin, mais il peut toujours compter sur ses amis pour l’en sortir.
+    Lorsqu’il se met en défense totale, ses alliés gagnent un bonus de trait de +1 à leurs jets contre les créatures qui le menacent.
+-
+  name: Imbibé de poison
+  category: religious
+  constraints: { race: halfelin, religion: Norgorber }
+  description: >
+    Le personnage n’a rien à craindre d’un type de poison.
+    En fait, il peut boire le breuvage toxique afin de rendre son sang dangereux.
+    Il est immunisé à un poison non-magique en particulier (voir la page 565 du Manuel des joueurs).
+    S’il ingère une dose de ce poison (même s’il s’agit d’un poison de contact, inhalé ou de blessure), il reste dans son corps pendant 24 heures : toutes les créatures qui le mordent pendant cette période sont sujettes aux effets du poison.
+-
+  name: Perception de l’imperfection
+  category: religious
+  constraints: { race: halfelin, religion: Irori }
+  description: >
+    La foi du personnage en Irori a amélioré sa capacité à déterminer quand quelqu’un ment ou cache quelque chose.
+    Psychologie est pour lui une compétence de classe et il gagne un bonus de trait de +1 à ses tests de Psychologie.
+-
+  name: Perfide
+  category: religious
+  constraints: { race: halfelin, religion: 'Thamir Gixx' }
+  description: >
+    Le personnage ayant voué sa foi à l’ombre mortelle de Norgorber, il a la capacité de porter de violentes attaques contre un adversaire qui n’est pas en mesure de le repousser complètement.
+    Lorsqu’il frappe un ennemi qu’il prend en tenaille, le personnage inflige 1 point de dégâts supplémentaire (ces dégâts s’ajoutent à ses dégâts de base et se multiplient sur un coup critique).
+    Ces dégâts supplémentaires sont un bonus de trait.
+-
+  name: Pourvoyeur
+  category: religious
+  constraints: { race: halfelin, religion: Érastil }
+  description: >
+    Peu de choses exaltent la foi du personnage autant que le fait de nourrir les affamés à la sueur de son front.
+    Il gagne un bonus de trait de +1 sur tous les d20 qu’il lance pour obtenir de la nourriture ou de l’eau pour les autres.
+    Si ce bonus s’applique le plus souvent aux tests de Survie, il pourrait également s’appliquer aux attaques faites contre les monstres comestibles et nourrissants (principalement les animaux et les plantes).
+    Néanmoins, Érastil voit d’un mauvais oeil le gâchis et ceux qui dédaignent ses faveurs : si le personnage abuse de ce don (en utilisant, par exemple, son bonus pour vaincre un ours et, ensuite, n’en manger qu’une petite bouchée), le dieu le punira en lui infligeant un malus de -2 à ses jets d’attaque, à ses tests de compétences et à ses jets de sauvegarde pendant 24 heures.
+-
+  name: Regain de l’aube
+  category: religious
+  constraints: { race: halfelin, religion: Sarenrae }
+  description: >
+    Grâce à ses prières du matin, les patients les plus récents du personnage bénéficient souvent d’une étincelle divine et bienvenue de vitalité.
+    Lorsque le personnage utilise la compétence Premiers soins pour prodiguer des soins à long terme, ses patients récupèrent 2 points de vie supplémentaires au lever du soleil.    
+-
+  name: Rêves prémonitoires
+  category: religious
+  constraints: { race: halfelin, religion: Desna }
+  description: >
+    Les rêves que fait le personnage lui donnent souvent un aperçu des dangers potentiels auxquels il pourrait être confronté pendant la journée (comme une chute, un souffle de feu ou un serpent venimeux) et cette intuition fait parfois toute la différence.
+    Chaque fois que le personnage dort, le MJ raconte au joueur un rêve qu’il a fait, où il était en danger.
+    Une fois par jour, si le personnage doit faire un jet de sauvegarde contre une menace relative ou similaire à celle de ce rêve, il peut relancer son jet et garder le meilleur résultat.
+    S’il ne fait pas face à des circonstances similaires au danger ou à la situation dont il a rêvé, ce trait n’a aucun effet ce jour-là.
+    Si le personnage a le trait Porte-poisse halfelin (voir page 170), il ne peut pas prendre ce trait, et vice versa.
+-
+  name: Sens de l’ordre
+  category: religious
+  constraints: { race: halfelin, religion: Abadar }
+  description: >
+    Du fait de sa capacité à repérer les changements même les plus infimes et la gêne que ceux-ci génèrent, il est logique que le personnage ait choisi de servir Abadar.
+    Il gagne un bonus de trait de +3 à tous ses tests de Perception pour identifier tous les changements qui se sont produits depuis la dernière fois où il s’est rendu dans un lieu.
