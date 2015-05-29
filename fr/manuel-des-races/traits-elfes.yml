@@ -1,0 +1,122 @@
+prototype: trait
+---
+-
+  name: Amateur de magie profane
+  category: racial,
+  constraints: { race: elfe }
+  description: >
+    Même si ses études en magie remontent à plusieurs dizaines d’années, le personnage se rappelle toujours de ses quelques tours de magie préférés.
+    Il choisit un sort profane de niveau 0.
+    Il peut lancer ce sort une fois par jour comme un pouvoir magique.
+    Le niveau de lanceur de sorts de ce pouvoir est égal au plus haut niveau du personnage parmi ses classes de lanceur de sorts ; si le personnage ne possède aucun niveau de lanceur de sorts, il fonctionne comme un pouvoir au NLS de 1.
+    Le DD du pouvoir est égal à l’Intelligence ou au Charisme (le personnage choisit la caractéristique en même temps que le trait).
+-
+  name: En quête de l’Illumination
+  category: racial,
+  constraints: { race: elfe }
+  description: >
+    Le personnage cherche activement, et depuis son plus jeune âge, les signes de l’Illumination.
+    Il choisit une compétence de Connaissances ; il gagne un bonus de trait de +1 sur les tests de Connaissances et de Perception appropriés.
+-
+  name: Erreur de jeunesse
+  category: racial,
+  constraints: { race: elfe }
+  description: >
+    Même si le personnage a traîné ses basques avec diverses petites frappes, éclaireurs ou ménestrels il y a fort longtemps, il sait encore comment éviter les coups lorsque la situation tourne au vinaigre.
+    Il gagne un bonus de trait de +1 à ses jets de sauvegarde de Réflexes.
+-
+  name: Foi vacillante
+  category: racial,
+  constraints: { race: elfe }
+  description: >
+    Le personnage se rappelle toujours quelques prières apprises lors de son service au temple.
+    Une fois par jour, il peut lancer stabilisation comme un pouvoir magique de lanceur de sorts niveau 1.
+    Le DD du jet de sauvegarde est basé sur la Sagesse.
+-
+  name: Guerrier des âges
+  category: racial,
+  constraints: { race: elfe }
+  description: >
+    Enfant, le personnage passait de longues heures à améliorer ses mouvements au combat et, même si le temps a effacé le gros de ces entraînements, il sait comment réagir rapidement lors d’une situation épineuse.
+    Il gagne un bonus de trait de +2 à ses tests d’Initiative.
+-
+  name: Ami des guêpes
+  category: religious,
+  constraints: { race: elfe, religion: Calistria }
+  description: >
+    L’intégration du personnage dans le culte de Calistria a endurci son corps contre le venin et lui octroie la capacité d’influencer le comportement des guêpes et des vermines insectoïdes similaires.
+    Il gagne un bonus de trait de +1 sur les jets de sauvegarde de Vigueur effectués contre le poison.
+    Il peut effectuer un test de Diplomatie (ou un test d’Empathie sauvage si le personnage est druide ou rôdeur) pour améliorer l’attitude Hostile ou Inamicale de la vermine insectoïde d’un degré vers l’Indifférence.
+-
+  name: Étoile-guide
+  category: religious,
+  constraints: { race: elfe, religion: Desna }
+  description: >
+    La Musique des sphères entonne un hymne à l’amour du voyage et promet au personnage de toujours trouver son chemin pour revenir chez lui.
+    Il sait automatiquement déterminer où est le nord.
+    Il gagne un bonus de trait de +4 sur ses tests de Survie pour éviter de se perdre.
+-
+  name: Panthéiste du Sovyrian
+  category: religious,
+  constraints: { race: elfe, religion: [ Findeladlara, Kétéphys, Yuelral] }
+  description: >
+    Grandement influencé par l’autre mystérieux royaume dominé par les elfes, le personnage voue un culte aux divinités elfes méconnues qui ont peu d’influence sur Golarion.
+    Il gagne un bonus de trait de +1 à ses tests de Connaissances (histoire) pour identifier une oeuvre d’art, à ses tests de Connaissances (ingénierie), de Survie pour chasser, de Constitution pour courir et les tests en Art de la magie lorsque des cristaux ou des pierres précieuses sont concernés.
+-
+  name: Prostitué calistrian
+  category: religious,
+  constraints: { race: elfe, religion: Calistria }
+  description: >
+    Le personnage a travaillé dans l’un des temples de Calistria en tant que prostitué sacré et il sait comment séduire, flatter et écouter (surtout).
+    Il gagne un bonus de trait de +1 aux tests de Psychologie et de Renseignements.
+-
+  name: Vengeur sacré
+  category: religious,
+  constraints: { race: elfe, religion: Calistria }
+  description: >
+    Le personnage nourrit un lien particulier avec Calistria, qui améliore ses chances d’assouvir sa vengeance.
+    Lorsqu’une créature le blesse avec une arme, le personnage gagnera un bonus de trait de +1 sur le jet de dégâts de son arme lors de son prochain tour contre cette créature.
+    Si cette créature est votre ilduliel (voir page 20), le bonus est de +2.
+-
+  name: Délaissé
+  category: regional,
+  constraints: { race: elfe, region: 'toute région non-elfe' }
+  description: >
+    Ayant vécu en dehors de la communauté elfe traditionnelle pendant la majeure partie de sa vie, le personnage sait à quel point le monde peut être cruel, dangereux et impitoyable envers les faibles.
+    Le personnage gagne un bonus de trait de +1 aux jets de sauvegarde de Vigueur.   
+-
+  name: Garde-portail du Kyonin
+  category: regional,
+  constraints: { race: elfe, region: Kyonin }
+  description: >
+    Le personnage a aidé à maintenir opérationnels les portails et il sait manipuler les concepts de la magie de téléportation.
+    Il gagne un bonus de trait de +1 sur les tests d’Art de la magie pour identifier la magie de téléportation et un bonus de trait de +1 sur les tests de niveau de lanceur de sorts lorsqu’il lance des sorts de téléportation.
+    Il connaît les mots de commande adéquats pour activer certains portails elfiques (le plus souvent un portail elfique régulièrement utilisé, mais ce portail peut, à la discrétion du MJ, être méconnu et inutile).
+-
+  name: Héritage de la Tour Acérée
+  category: regional,
+  constraints: { race: elfe, region: 'Tour Acérée' }
+  description: >
+    Le personnage a vécu parmi les elfes de la Tour Acérée et connaît leurs étranges coutumes.
+    Il gagne un bonus de trait de +1 sur ses tests de Natation et un bonus de trait de +1 sur ses jets de sauvegarde contre les effets de type enchantement.
+-
+  name: Illusionniste iadaran
+  category: regional,
+  constraints: { race: elfe, region: Kyonin}
+  description: >
+    Le personnage a vécu à Iadara pendant si longtemps qu’il est devenu un expert des illusions.
+    Il gagne un bonus de trait de +1 sur ses tests de niveau de lanceur de sorts effectués avec des sorts d’illusion et un bonus de trait de +1 sur ses jets de sauvegarde de Volonté pour dévoiler les illusions.
+-
+  name: Laissé pour compte
+  category: regional,
+  constraints: { race: elfe, region: [ 'Étendue Mwangi', 'Varisie' ] }
+  description: >
+    Né parmi ceux qui ont décidé de rester sur Golarion dans l’étendue Mwangi pendant l’âge des Ténèbres, le personnage comprend les peuples de ce monde mieux que tout autre elfe.
+    Il gagne un bonus de trait de +1 à ses tests de Diplomatie et de Renseignements lorsqu’il interagit avec des elfes Délaissés ou avec les races non-elfes.
+-
+  name: Némésis de Fléau des Arbres
+  category: regional,
+  constraints: { race: elfe, region: Kyonin}
+  description: >
+    Engagé dans la guerre contre Fléau des Arbres et ses séides, le personnage a appris les meilleures tactiques pour tuer les diverses créatures sous le contrôle du démon.
+    Il gagne un bonus de trait de +2 sur les jets de dégâts de ses armes effectués contre les démons, les fées maléfiques, les plantes et les animaux corrompus par le Mal.
